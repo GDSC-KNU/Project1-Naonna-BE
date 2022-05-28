@@ -2,7 +2,7 @@
 
 # Project 1 - Naonna
 
-![NaonnaMain](https://user-images.githubusercontent.com/77485914/170818120-0c9f8dae-4113-4ef2-8e10-0bf721acc7bd.png)
+![NaonnaMain](https://user-images.githubusercontent.com/77485914/170818120-0c9f8dae-4113-4ef2-8e10-0bf721acc7bd.png)  
 <a href="https://naonna.netlify.app">프로젝트 바로가기</a>
 
 ### 팀원소개

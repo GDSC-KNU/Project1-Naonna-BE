@@ -1,7 +1,5 @@
 # Project - Naonna (BackEnd)
 
-# Project 1 - Naonna
-
 ![NaonnaMain](https://user-images.githubusercontent.com/77485914/170818120-0c9f8dae-4113-4ef2-8e10-0bf721acc7bd.png)  
 <a href="https://naonna.netlify.app">프로젝트 바로가기</a>
 
@@ -26,7 +24,6 @@
     - 날짜 별 미세먼지 정보 제공
     - 위도, 경도 < - > 주소지 변환
     - 일자 별 날씨 점수 제공
-
     
 ### Structure
 ```
@@ -55,3 +52,8 @@
     │   └── WeatherService.java
     └── WeatherApplication.java
 ```
+
+    ### 사용 API
+    https://openweathermap.org/api/one-call-api  - OpenWeather API
+    
+    https://www.vworld.kr/dev/v4dv_geocoderguide2_s001.do - 지오코딩 API

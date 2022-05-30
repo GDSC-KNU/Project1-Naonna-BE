@@ -28,7 +28,7 @@
 ###
     
 
-    
+("/weathers/current/{city}")
 ```
 {
   current_dt: String, // 날짜
@@ -39,17 +39,19 @@
 }
 ```
 
+("/weathers/hourly/{city}")
 ```
 {
     "dt": String, // 날짜 
     "weather_id": number, // 날씨 id 값
-    "weather_main": String, //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain' //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain'
+    "weather_main": String, //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain' 
     "weather_description": String,  // 상세 날씨
     "weather_icon": String  // 날씨 icon
     "temp": number // 온도
 }
 ```
 
+("/weathers/daily/{city}")
 ```
 {
    "dt": String, // 날짜
@@ -65,6 +67,7 @@
 }
 ```    
  
+("/weathers/dust/{city}/strattime/endtime")
 ```
 {
     "pm": number, // 미세먼지 수치

@@ -28,7 +28,7 @@
 ###
     
 
-("/weathers/current/{city}")
+- 현재 날씨 - ("/weathers/current/{city}")
 ```
 {
   current_dt: String, // 날짜
@@ -39,7 +39,7 @@
 }
 ```
 
-("/weathers/hourly/{city}")
+- 시간대 별 날씨 - ("/weathers/hourly/{city}")
 ```
 {
     "dt": String, // 날짜 
@@ -51,7 +51,7 @@
 }
 ```
 
-("/weathers/daily/{city}")
+- 일자 별 날씨 - ("/weathers/daily/{city}")
 ```
 {
    "dt": String, // 날짜
@@ -67,7 +67,7 @@
 }
 ```    
  
-("/weathers/dust/{city}/strattime/endtime")
+- 일자 별 미세먼지 수치 -("/weathers/dust/{city}/strattime/endtime")
 ```
 {
     "pm": number, // 미세먼지 수치

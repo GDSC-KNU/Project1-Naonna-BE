@@ -25,6 +25,57 @@
     - 위도, 경도 < - > 주소지 변환
     - 일자 별 날씨 점수 제공
     
+###
+    
+
+    
+```
+{
+  current_dt: String, // 날짜
+  current_temp: number, // 온도
+  current_humidity: number,  // 습도
+  weather_main: String, //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain'
+  score: number // 날씨 점수
+}
+```
+
+```
+{
+    "dt": String, // 날짜 
+    "weather_id": number, // 날씨 id 값
+    "weather_main": String, //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain' //'clear' | 'bitCloudy' | 'Clouds' | 'snow' | 'rain'
+    "weather_description": String,  // 상세 날씨
+    "weather_icon": String  // 날씨 icon
+    "temp": number // 온도
+}
+```
+
+```
+{
+   "dt": String, // 날짜
+    "humidity": number,  // 습도
+    "wind_speed": number, // 풍속
+    "rain": number, // 강수량
+    "uvi": number, // 자외선 수치
+    "temp_day": number, // 온도
+    "temp_min": number, // 최고 기온
+    "temp_max": number, // 최저 기온
+    "weather_main": String, // 날씨
+    score: number // 날씨 점수
+}
+```    
+ 
+```
+{
+    "pm": number, // 미세먼지 수치
+    "dt": String // 날짜
+}    
+```
+    
+```
+{
+}
+ 
 ### Structure
 ```
 ├── gradle

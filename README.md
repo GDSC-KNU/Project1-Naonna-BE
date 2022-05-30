@@ -66,7 +66,7 @@
 }
 ```    
  
-- 일자 별 미세먼지 수치 -("/weathers/dust/{city}/strattime/endtime")
+- 일자 별 미세먼지 수치 -("/weathers/dust/{city}/starttime/endtime")
 ```
 {
     "pm": float, // 미세먼지 수치

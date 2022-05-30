@@ -60,3 +60,4 @@
     
 ### 배포 
 <https://aws.amazon.com/ko/?nc2=h_lg> - AWS 
+- https 적용
